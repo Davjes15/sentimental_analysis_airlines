@@ -25,16 +25,22 @@ To run this jupyter notebook, ensure you have installed:
 Two data sets are used in this project:
 
 ```
-"generic_tweets.txt" file contains tweets that have had their sentiments already analyzed and recorded as binary values 0 (negative) and 4 (positive).
+"generic_tweets.txt" file contains tweets that have had their sentiments already analyzed and recorded as 
+binary values 0 (negative) and 4 (positive).
 
 ```
 Description: 
 
 0 class the polarity of each tweet (0 = negative emotion, 4 = positive emotion).
+
 1 id the id of the tweet (e.g. 2087).
+
 2 date the date of the tweet (e.g. Sat May 16 23:58:44 UTC 2009).
+
 3 query the query (e.g. lyx). If there is no query, then this value is NO_QUERY.
+
 4 user the user that tweeted (e.g. robotickilldozr).
+
 5 text the text of the tweet (e.g. Lyx is cool).
 
 ```
@@ -44,10 +50,15 @@ Description:
 Description:
 
 0 id the id of the tweet.
+
 1 sentiment can be “positive” or “negative”.
+
 2 negative_reason reason for negative tweets. Left blank for positive tweets.
+
 3 user the user that tweeted.
+
 4 retweet_count number of retweets.
+
 5 text the text of the tweet.
 
 
